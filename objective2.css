@@ -1,0 +1,46 @@
+/* task 1 css */
+
+a {
+    color: blue;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: red;
+}
+
+/* task 2 css */
+
+@keyframes click-animation {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.clickable-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.clickable-button:active {
+    animation: click-animation 0.2s;
+}
+/* task 3 css */
+
+@keyframes rotate-animation {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.rotating-icon {
+    animation: rotate-animation 2s linear infinite;
+}

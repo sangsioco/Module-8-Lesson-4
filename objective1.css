@@ -1,0 +1,31 @@
+/* task */
+.background-fade {
+    background-color: rgba(0, 0, 255, 0.5); /* Blue with 50% opacity */
+    padding: 20px;
+    margin: 20px;
+}
+
+/* task 2 */
+h1 {
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Black shadow with 50% opacity */
+}
+
+/* task 3 */
+.interactive-button {
+    background-color: rgba(0, 128, 0, 1); /* Solid green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.interactive-button:hover {
+    background-color: rgba(0, 128, 0, 0.7); /* Green with 70% opacity */
+}
